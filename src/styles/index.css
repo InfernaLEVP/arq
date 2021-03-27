@@ -1,0 +1,19 @@
+@import 'fonts.css';
+@import 'variables.css';
+@import 'globals.css';
+@import 'layout.css';
+
+@import 'blocks/slide/slide.css';
+@import 'blocks/hero/hero.css';
+@import 'blocks/table/table.css';
+
+@import 'blocks/slides/slide-1.css';
+@import 'blocks/slides/slide-2.css';
+@import 'blocks/slides/slide-3.css';
+@import 'blocks/slides/slide-6.css';
+@import 'blocks/slides/slide-7.css';
+@import 'blocks/slides/slide-8.css';
+@import 'blocks/slides/slide-9.css';
+@import 'blocks/slides/slide-10.css';
+
+@import 'print.css'

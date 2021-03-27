@@ -1,0 +1,109 @@
+section.slide{
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide{
+    position: relative;
+}
+@media(max-width: 992px){
+    .slide{
+
+    }
+}
+
+/*  */
+.slide__title{
+    font-size: 49pt;
+    font-weight: bold;
+    padding-top: 20px;
+
+    position: relative;
+    z-index: 5;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-weight: 500;
+}
+@media(max-width: 992px){
+    .slide__title{
+
+    }
+}
+
+/*  */
+.slide__logo{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    max-width: 320px;
+    z-index: 5;
+}
+@media(max-width: 992px){
+    .slide__logo{
+
+    }
+}
+
+/*  */
+.slide__content{
+    position: relative;
+    z-index: 5;
+    padding-top: 30px;
+    padding-right: 19%;
+    flex: 1;
+    font-weight: 600;
+}
+.slide-5 .slide__content{
+    padding-right: 22%;
+}
+@media(max-width: 992px){
+    .slide__content{
+
+    }
+}
+
+/*  */
+.slide__aside{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    max-height: 100%;
+    min-height: 100%;
+}
+.slide__aside img{
+    /* height: 100%;
+    object-fit: contain; */
+}
+@media(max-width: 992px){
+    .slide__aside{
+
+    }
+}
+
+/*  */
+.slide__number{
+    position: absolute;
+    bottom: 40px;
+    z-index: 5;
+    right: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.slide__number span{
+    font-size: 21pt;
+}
+.slide__number div{
+    font-size: 9pt;
+    margin-left: 40px;
+    letter-spacing: 0.8px;
+}
+@media(max-width: 992px){
+    .slide__number{
+
+    }
+}

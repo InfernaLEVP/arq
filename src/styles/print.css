@@ -1,0 +1,104 @@
+.page {
+    width: 29.7cm;
+    min-height: 21cm;
+    max-height: 21cm!important;
+    padding: 2cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subpage {
+    padding: 1cm;
+    border: 5px red solid;
+    height: 256mm;
+    outline: 2cm #FFEAEA solid;
+  }
+  
+  /* @page {
+    size: A4;
+    orientation: landscape;
+    margin: 0;
+  } */
+  
+@media print {
+    .slide__logo{
+        max-width: 250px;
+    }
+    .slide-1__bottom{
+        padding-top: 0px;
+    }
+    .slide__content{
+        padding-top: 10px;
+    }
+    .member__photo{
+        width: 15%;
+    }
+    .member__bio{
+        width: 85%;
+        padding-right: 7%;
+    }
+    .slide__number{
+        right: 80px;
+    }
+    .slide__number div{
+        margin-left: 20px;
+    }
+    .slide-3 {
+        font-size: 15pt;
+    }
+
+    .slide-3__p-1{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .slide-3__p-2{
+        padding-left: 10%;
+        margin-bottom: 15px;
+    }
+    .slide-3__p-3{
+        padding-left: 10%;
+        margin-bottom: 35px;
+    }
+    .grid{
+        padding-left: 0;
+    }
+    .slide-10 .slide__content p{
+        font-size: 9pt;
+    }
+    table{
+        font-size: 12pt;
+    }
+    .return__head{
+        margin-bottom: 0;
+    }
+    .return__table{
+        padding-right: 8%;
+    }
+    .line{
+        padding-top: 8px;
+        margin-top: 4px;
+    }
+    .slide-8{
+        font-size: 13pt;
+    }
+    .slide__number{
+        right: 4.5%;
+        transform: translateX(-3px);
+    }
+    .slide-7__content{
+        padding-top: 0;
+        height: 100%;
+        align-items: center;
+    }
+    .return__table{
+        width: 85%;
+        font-size: 11pt;
+    }
+    .return__table thead tr td, tbody td{
+        padding: 3px 8px;
+    }
+    
+}

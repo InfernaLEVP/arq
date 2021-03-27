@@ -1,0 +1,50 @@
+.hero{
+    background-image: url('./images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    position: relative;
+}
+@media(max-width: 992px){
+
+}
+
+/*  */
+.hero__logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 992px){
+
+}
+
+/*  */
+.hero__tagline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+@media(max-width: 992px){
+
+}
+
+/*  */
+.hero__date{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 600;
+}
+@media(max-width: 992px){
+
+}
+
+/*  */

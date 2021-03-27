@@ -1,0 +1,10 @@
+.c_container{
+  padding-left: 2.8rem;
+  padding-right: 4rem;
+}
+@media screen and (max-width: 992px){
+  .c_container{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}

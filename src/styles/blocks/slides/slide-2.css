@@ -1,0 +1,71 @@
+.team{
+    /* height: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media(max-width: 992px){
+    .team{
+
+    }
+}
+
+/*  */
+.member{
+    display: flex;
+    margin-top: 16px;
+}
+@media(max-width: 992px){
+    .member{
+
+    }
+}
+
+/*  */
+.member__photo{
+    width: 20%;
+}
+@media(max-width: 992px){
+    .member__photo{
+
+    }
+}
+
+/*  */
+.member__bio{
+    width: 80%;
+    padding-left: 40px;
+}
+@media(max-width: 992px){
+    .member__bio{
+
+    }
+}
+
+/*  */
+.member__name{
+    font-size: 21pt;
+    margin-bottom: 22px;
+}
+@media(max-width: 992px){
+    .member__name{
+
+    }
+}
+
+/*  */
+.member__history{
+    font-size: 11pt;
+}
+.member__history p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+@media(max-width: 992px){
+    .member__history{
+
+    }
+}
+
+/*  */
